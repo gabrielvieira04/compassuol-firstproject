@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 
 /*Mobile*/
 @media screen and (max-device-width: 480px) {
@@ -6,63 +11,34 @@
         display: flex;
         flex-direction: column;
         align-items: center;
+        gap: 25px;
     }
-    .screen1-img {
-        margin-top: 56px;
-        margin-right: 150px;
-        margin-left: 59px;
 
+    .screen1-img img{
+        width: 250px;
+        margin-left: -100px;
+        margin-top: 25px;
     }
 
     .screen1-title {
-        max-width: 264px;
-        max-height: 57px;
-        flex-shrink: 0;
-        color: #000;
-        font-family: Roboto, serif;
-        font-size: 5rem;
-        font-weight: normal;
-        line-height: normal;
-
+        font-size: 53px;
     }
-    .screen1-text {
-        margin-left: 49px;
-        margin-right:49px;
-        margin-bottom: 26px;
-        width: 382px;
-        height: 47px;
-        flex-shrink: 0;
-        color: #000;
-        text-align: center;
-        font-family: Roboto, serif;
-        font-size: 3rem;
-        font-weight: normal;
-        line-height: normal;
 
+    .screen1-text {
+        font-size: 24px;
+        font-weight: 700;
     }
 
     .screen1-button {
-        width: 199px;
-        height: 36px;
-        margin-bottom: 76px;
-        margin-top: 200px;
-        flex-shrink: 0;
+        background-color: #3EB25E;
         border-radius: 35px;
-        background: #3EB25E;
-        border: 0;
-
+        padding: 5px 50px;
+        border: none;
+        cursor: pointer;
+        color: white;
     }
-    .button-text {
-        width: 172px;
-        height: 20px;
-        flex-shrink: 0;
-        color: #FFF;
-        text-align: center;
-        font-family: Roboto, serif;
-        font-size: 22px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
 
+    .button-text {
+        font-size: 22px;
     }
 }
