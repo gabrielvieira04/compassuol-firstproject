@@ -51,6 +51,19 @@
         border: 0;
 
     }
+    .button-text {
+        width: 172px;
+        height: 20px;
+        flex-shrink: 0;
+        color: #FFF;
+        text-align: center;
+        font-family: Roboto, serif;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+
+    }
 
 
 }
