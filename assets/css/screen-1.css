@@ -15,21 +15,31 @@
     }
 
     .screen1-img img{
-        width: 250px;
-        margin-left: -100px;
+        width: 271px;
+        margin-left: 59px;
+        margin-right: 150px;
         margin-top: 25px;
+        flex-shrink: 0;
     }
 
     .screen1-title {
+        margin-left: 108px;
+        margin-right: 108px;
         font-size: 53px;
+        font-family: "Roboto", serif;
     }
 
     .screen1-text {
+        margin-left: 49px;
+        margin-right: 49px;
         font-size: 24px;
         font-weight: 700;
+        font-family: Roboto, serif;
     }
 
     .screen1-button {
+        width: 199px;
+        height: 36px;
         background-color: #3EB25E;
         border-radius: 35px;
         padding: 5px 50px;
@@ -39,6 +49,11 @@
     }
 
     .button-text {
+        width: 172px;
+        height: 20px;
         font-size: 22px;
+        font-weight: 700;
+        font-family: Roboto, serif;
+        color: white;
     }
 }
