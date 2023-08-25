@@ -5,5 +5,38 @@
 
 /*Mobile*/
 @media screen and (max-device-width: 480px) {
+    .screen3-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .screen3-img img {
+        width: 360px;
+        margin-top: 61px;
+        margin-right: 76px;
+        margin-left: 44px;
+        margin-bottom: 20px;
+    }
+
+    .screen3-text1{
+        width: 268px;
+        flex-shrink: 0;
+        color: black;
+        text-align: center;
+        font-family: "Roboto", serif;
+        font-size: 16px;
+        font-weight: 700;
+        margin-bottom: 9px;
+
+    }
+
+    .screen3-select{
+        width: 278px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        border: 1px solid rgba(0, 0, 0, 0.25);
+
+    }
 
 }
