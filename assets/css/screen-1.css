@@ -34,7 +34,7 @@
         margin-right: 49px;
         font-size: 24px;
         font-weight: 700;
-        font-family: Roboto, serif;
+        font-family: "Roboto", serif;
     }
 
     .screen1-button {
@@ -53,7 +53,7 @@
         height: 20px;
         font-size: 22px;
         font-weight: 700;
-        font-family: Roboto, serif;
+        font-family: "Roboto", serif;
         color: white;
     }
 }
