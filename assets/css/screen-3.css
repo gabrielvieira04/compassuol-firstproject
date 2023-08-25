@@ -1,0 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*Mobile*/
+@media screen and (max-device-width: 480px) {
+
+}
