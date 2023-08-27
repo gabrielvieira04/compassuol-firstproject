@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    -webkit-tap-highlight-color: transparent;
+    text-decoration: none;
 }
 
 /*Mobile*/
@@ -54,6 +54,7 @@
         background-color: #3EB25E;
         border: none;
         flex-direction: row;
+        margin-right: 30px;
     }
 
     .screen2-backtohome-text {
@@ -75,6 +76,7 @@
         border-radius: 35px;
         background-color: #3EB25E;
         border: none;
+
     }
 
     .screen2-fillform-text {
@@ -87,8 +89,9 @@
         font-weight: 700;
         text-align: center;
     }
-    a {
-        text-decoration: none;
+
+    .button-container{
+        display: flex;
     }
 
 
