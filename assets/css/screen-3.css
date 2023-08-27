@@ -1,7 +1,9 @@
 *{
     margin: 0;
     padding: 0;
+    text-decoration: none;
 }
+
 
 /*Mobile*/
 @media screen and (max-device-width: 480px) {
@@ -10,13 +12,12 @@
         flex-direction: column;
         align-items: center;
 
+
     }
     .screen3-img img {
         width: 360px;
-        margin-top: 61px;
-        margin-right: 76px;
-        margin-left: 44px;
-        margin-bottom: 20px;
+        margin: 61px 76px 20px 44px;
+        align-items: center;
     }
 
     .screen3-text1{
@@ -36,7 +37,104 @@
         flex-shrink: 0;
         border-radius: 20px;
         border: 1px solid rgba(0, 0, 0, 0.25);
+        margin-bottom: 15px;
 
     }
+
+    .screen3-text2 {
+        width: 326px;
+        flex-shrink: 0;
+        color: #000;
+        text-align: center;
+        font-family: Roboto, serif;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .screen-3-radiobutton {
+        margin-right: 182px;
+        margin-left: 45px;
+
+    }
+    .screen-3-radiobutton input[type='radio'] {
+        accent-color: #3EB25E;
+    }
+
+    .button-container {
+        display: flex;
+    }
+
+    .screen3-back-button{
+        width: 142px;
+        height: 26px;
+        flex-shrink: 0;
+        border-radius: 35px;
+        background: #3EB25E;
+        border: none;
+
+
+    }
+    .screen3-backbutton-text{
+        width: 108px;
+        height: 15px;
+        flex-shrink: 0;
+        color: #FFF;
+        text-align: center;
+        font-family: Roboto, serif;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: normal;
+        margin-right: 16px;
+
+    }
+
+    .screen3-next-button {
+        width: 142px;
+        height: 26px;
+        flex-shrink: 0;
+        border-radius: 35px;
+        background: #3EB25E;
+        border: none;
+
+    }
+
+    .screen3-next-button-text {
+        width: 125px;
+        height: 18px;
+        flex-shrink: 0;
+        color: #FFF;
+        text-align: center;
+        font-family: Roboto, serif;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: normal;
+
+    }
+
+    .screen3-skip-button {
+        width: 302px;
+        height: 26px;
+        flex-shrink: 0;
+        border-radius: 35px;
+        background: #3EB25E;
+        border: none;
+
+    }
+
+    .screen3-skip-button-text {
+        width: 139px;
+        height: 22px;
+        flex-shrink: 0;
+        color: #FFF;
+        text-align: center;
+        font-family: Roboto, serif;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: normal;
+
+    }
+
+
 
 }
