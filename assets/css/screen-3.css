@@ -34,6 +34,7 @@
 
     .screen3-select{
         width: 278px;
+        height: 33px;
         flex-shrink: 0;
         border-radius: 20px;
         border: 1px solid rgba(0, 0, 0, 0.25);
@@ -55,7 +56,7 @@
     .screen-3-radiobutton {
         margin-right: 182px;
         margin-left: 45px;
-
+        margin-bottom: 10px;
     }
     .screen-3-radiobutton input[type='radio'] {
         accent-color: #3EB25E;
@@ -73,7 +74,7 @@
         border-radius: 35px;
         background: #3EB25E;
         border: none;
-
+        margin-right: 18px;
 
     }
     .screen3-backbutton-text{
@@ -86,7 +87,6 @@
         font-size: 16px;
         font-weight: 700;
         line-height: normal;
-        margin-right: 16px;
 
     }
 
