@@ -1,0 +1,116 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+@media screen and (max-device-width: 480px) {
+    .screen5-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+    .screen5-img img{
+        margin: 60px 49px 22px 70px;
+        width: 360px;
+        height: 340px;
+        flex-shrink: 0;
+    }
+
+    .screen5-text{
+        width: 261px;
+        height: 59px;
+        flex-shrink: 0;
+        color: #000;
+        font-family: Roboto, serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .screen5-textbox input{
+        width: 278px;
+        height: 131px;
+        margin-bottom: 22px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        border: 1px solid rgba(0, 0, 0, 0.25);
+        text-wrap: normal;
+
+    }
+
+    .screen5-back-button {
+        width: 142px;
+        height: 26px;
+        flex-shrink: 0;
+        border-radius: 35px;
+        background: #3EB25E;
+        border: none;
+        margin-right: 18px;
+    }
+
+    .screen5-backbutton-text{
+        width: 98px;
+        height: 15px;
+        flex-shrink: 0;
+        color: #FFF;
+        text-align: center;
+        font-family: Roboto, serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .screen5-next-button{
+        width: 142px;
+        height: 26px;
+        flex-shrink: 0;
+        border-radius: 35px;
+        background: #3EB25E;
+        border: none;
+    }
+
+    .screen5-next-button-text{
+        width: 125px;
+        height: 18px;
+        flex-shrink: 0;
+        color: #FFF;
+        text-align: center;
+        font-family: Roboto, serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .skip-container{
+        display: flex;
+        margin-top: 10px;
+    }
+
+    .screen5-skip-button {
+        width: 302px;
+        height: 26px;
+        flex-shrink: 0;
+        border-radius: 35px;
+        background: #3EB25E;
+        border: none;
+
+    }
+
+    .screen5-skip-button-text {
+        width: 139px;
+        height: 22px;
+        flex-shrink: 0;
+        color: #FFF;
+        text-align: center;
+        font-family: Roboto, serif;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: normal;
+
+    }
+
+}
