@@ -1,0 +1,150 @@
+*{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+}
+
+@media screen and (max-device-width: 480px) {
+    .screen4-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .screen4-img img {
+        width: 380px;
+        flex-shrink: 0;
+        margin: 51px 45px 15px 55px;
+    }
+
+    .screen4-text1 {
+        width: 268px;
+        height: 20px;
+        flex-shrink: 0;
+        color: #000;
+        font-family: Roboto, serif;
+        font-size: 16px;
+        text-align: center;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 10px;
+    }
+
+    .screen4-select-container select{
+        width: 278px;
+        height: 33px;
+        flex-shrink: 0;
+        border-radius: 20px;
+        border: 1px solid rgba(0, 0, 0, 0.25);
+        margin-bottom: 14px;
+
+    }
+
+    .screen4-text2{
+        width: 261px;
+        height: 40px;
+        flex-shrink: 0;
+        color: #000;
+        font-family: Roboto, serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 4px;
+    }
+
+    .screen4-checkbox-container {
+        width: 265px;
+        height: 84px;
+        flex-shrink: 0;
+        color: #000;
+        font-family: Roboto, serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px;
+        margin-bottom: 21px;
+    }
+
+    .screen4-button-container {
+        display: flex;
+
+    }
+
+    .screen4-back-button {
+        width: 142px;
+        height: 26px;
+        flex-shrink: 0;
+        border-radius: 35px;
+        background: #3EB25E;
+        border: none;
+        margin-right: 18px;
+    }
+
+    .screen4-backbutton-text{
+        width: 98px;
+        height: 15px;
+        flex-shrink: 0;
+        color: #FFF;
+        text-align: center;
+        font-family: Roboto, serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .screen4-next-button{
+        width: 142px;
+        height: 26px;
+        flex-shrink: 0;
+        border-radius: 35px;
+        background: #3EB25E;
+        border: none;
+    }
+
+    .screen4-next-button-text{
+        width: 125px;
+        height: 18px;
+        flex-shrink: 0;
+        color: #FFF;
+        text-align: center;
+        font-family: Roboto, serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+    }
+
+    .skip-container{
+        display: flex;
+        margin-top: 10px;
+    }
+
+    .screen4-skip-button {
+        width: 302px;
+        height: 26px;
+        flex-shrink: 0;
+        border-radius: 35px;
+        background: #3EB25E;
+        border: none;
+
+    }
+
+    .screen4-skip-button-text {
+        width: 139px;
+        height: 22px;
+        flex-shrink: 0;
+        color: #FFF;
+        text-align: center;
+        font-family: Roboto, serif;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: normal;
+
+    }
+
+
+
+
+}
