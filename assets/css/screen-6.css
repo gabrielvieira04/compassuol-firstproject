@@ -86,7 +86,17 @@
         font-style: normal;
         font-weight: 700;
         line-height: normal;
-
+    }
+    .screen6-form-container input::placeholder {
+        width: 181px;
+        height: 22px;
+        flex-shrink: 0;
+        color: rgba(0, 0, 0, 0.25);
+        font-family: Roboto, serif;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
     }
 
 }
