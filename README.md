@@ -1,5 +1,5 @@
 # Programa de Bolsas, First Project !
-Este é o primeiro projeto realizado detro do Programa de Bolsas da Compass UOL com foco em desenvolvimento <br>
+Este é o primeiro projeto realizado dentro do Programa de Bolsas da Compass UOL com foco em desenvolvimento <br>
 front end utlizando REACT.
 
 @Autor: José Gabriel Vieira de Souza
