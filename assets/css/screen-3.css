@@ -1,18 +1,16 @@
 *{
-    margin: 0;
-    padding: 0;
     text-decoration: none;
 }
-
-
 /*Mobile*/
 @media screen and (max-device-width: 480px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
     .screen3-container {
         display: flex;
         flex-direction: column;
         align-items: center;
-
-
     }
     .screen3-img img {
         width: 360px;
@@ -29,7 +27,6 @@
         font-size: 16px;
         font-weight: 700;
         margin-bottom: 9px;
-
     }
 
     .screen3-select{
@@ -39,7 +36,6 @@
         border-radius: 20px;
         border: 1px solid rgba(0, 0, 0, 0.25);
         margin-bottom: 15px;
-
     }
 
     .screen3-text2 {
@@ -57,6 +53,7 @@
         margin-right: 182px;
         margin-left: 45px;
         margin-bottom: 10px;
+        font-family: Roboto, serif;
     }
     .screen-3-radiobutton input[type='radio'] {
         accent-color: #3EB25E;
@@ -75,7 +72,6 @@
         background: #3EB25E;
         border: none;
         margin-right: 18px;
-
     }
     .screen3-backbutton-text{
         width: 108px;
@@ -87,7 +83,6 @@
         font-size: 16px;
         font-weight: 700;
         line-height: normal;
-
     }
 
     .screen3-next-button {
@@ -97,7 +92,6 @@
         border-radius: 35px;
         background: #3EB25E;
         border: none;
-
     }
 
     .screen3-next-button-text {
@@ -110,7 +104,6 @@
         font-size: 16px;
         font-weight: 700;
         line-height: normal;
-
     }
 
     .skip-container{
@@ -125,7 +118,6 @@
         border-radius: 35px;
         background: #3EB25E;
         border: none;
-
     }
 
     .screen3-skip-button-text {
@@ -138,10 +130,5 @@
         font-size: 16px;
         font-weight: 700;
         line-height: normal;
-
     }
-
-
-
-
 }

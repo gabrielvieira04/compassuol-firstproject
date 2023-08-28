@@ -1,11 +1,15 @@
 * {
-    margin: 0;
-    padding: 0;
     text-decoration: none;
 }
 
 /*Mobile*/
+
 @media screen and (max-device-width: 480px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
+
     .screen2-container {
         display: flex;
         flex-direction: column;
@@ -93,6 +97,5 @@
     .button-container{
         display: flex;
     }
-
 
 }

@@ -1,10 +1,12 @@
 *{
     text-decoration: none;
-    padding: 0;
-    margin: 0;
 }
 
 @media screen and (max-device-width: 480px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
     .screen4-container{
         display: flex;
         flex-direction: column;
@@ -68,7 +70,6 @@
 
     .screen4-button-container {
         display: flex;
-
     }
 
     .screen4-back-button {
@@ -143,8 +144,4 @@
         line-height: normal;
 
     }
-
-
-
-
 }

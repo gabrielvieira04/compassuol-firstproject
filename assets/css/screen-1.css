@@ -1,11 +1,12 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+    text-decoration: none;
 }
-
-
 /*Mobile*/
 @media screen and (max-device-width: 480px) {
+    *{
+        margin: 0;
+        padding: 0;
+    }
 
     .flex-screen1-container {
         display: flex;
@@ -55,10 +56,6 @@
         font-weight: 700;
         font-family: "Roboto", serif;
         color: white;
-    }
-
-    a {
-        text-decoration: none;
     }
 
 }
